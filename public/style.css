@@ -1,0 +1,92 @@
+.mainbg{
+    background-image: url('../assets/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 606px;
+}
+.mainhead{
+    color: rgb(224, 156, 54);
+}
+.signuphead{
+    text-align: center;
+}
+.signupbtn a{
+    color: white;
+    text-decoration: none;
+}
+.logincar{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.signupbg{
+    background-image: url('../assets/blackcar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 606px;
+}
+.loginbg{
+    background-image: url('../assets/bluecar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 606px;
+}
+.logincard{
+    margin-left: 30px;
+}
+.homehead{
+    color: white;
+}
+.homecol1, .homecol2{
+    margin-top: 265px;
+}
+.carsbg{
+    background-image: url('../assets/cars1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.formbg{
+    background-image: url('../assets/formbg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
+}
+#myDIV {
+    background-image: url(../assets/scorpio.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    animation: mymove 5s infinite;
+}
+#myDIV1 {
+    background-image: url(../assets/thar.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    animation: mymove 5s infinite;
+}
+#myDIV2 {
+    height:300px;
+    width:550px;
+    background-image: url(../assets/harrier.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    50% {background-position-x: center;}
+}
